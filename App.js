@@ -1,12 +1,19 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
+import { Timer } from './Timer'
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <Timer
+        totalTimeOnSeconds={60 * 25}
+        size={512}
+        borderSize={5}
+        borderColor="#F5F5F5"
+        borderColorHover="#555"
+        backgroundColor="white"
+        fontStyle={{ fontSize: 52, color: "#666666" }}
+      />
     </View>
   );
 }
