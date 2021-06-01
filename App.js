@@ -6,7 +6,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Timer
-        totalTimeOnSeconds={60 * 25}
+        totalTimeOnSeconds={30 * 1}
         size={512}
         borderSize={5}
         borderColor="#F5F5F5"

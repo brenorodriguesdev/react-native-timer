@@ -45,7 +45,7 @@ export function Timer(props) {
             percentAnimation,
             {
                 toValue: 0,
-                duration: totalTime * 1000,
+                duration: time * 1000,
                 useNativeDriver: true
             },
 
